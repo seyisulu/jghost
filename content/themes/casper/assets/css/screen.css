@@ -699,6 +699,144 @@ body.nav-opened .nav {
     margin-right: 6px;
 }
 
+/* Customize email login page */
+.email-bg {
+    background-color:transparent;
+}
+#mail-main .input-icon[class*='icon-'] input[type="email"], #mail-main .input-icon[class*='icon-'] input[type="number"], 
+#mail-main .input-icon[class*='icon-'] input[type="password"], #mail-main .input-icon[class*='icon-'] input[type="search"], 
+#mail-main .input-icon[class*='icon-'] input[type="tel"], #mail-main .input-icon[class*='icon-'] input[type="text"], 
+#mail-main .input-icon[class*='icon-'] input[type="url"], #mail-main .input-icon[class*='icon-'] input[type="date"] {
+    padding-left: 3.2rem;
+}
+@media (min-width: 631px)
+#mail-main .login-form .email {
+    border-radius: 2px 0 0 2px;
+}
+#mail-main .login-form .email, #mail-main .login-form .password {
+    display: inline-block;
+    clear: both;
+    padding: 8px 0 8px 8px;
+    width: 216px;
+}
+#mail-main .ghost-login input, #mail-main .ghost-signup input, #mail-main .ghost-forgotten input, #mail-main .ghost-reset input {
+    line-height: 1.4em;
+    font-size: 1.1em;
+    font-weight: 200;
+    border: none;
+    color: #fff;
+    background: #3c4043;
+    box-shadow: none;
+    margin: 0;
+    position: relative;
+    transition: background ease 0.25s;
+}
+#mail-main .input, #mail-main input[type="email"], #mail-main input[type="number"], #mail-main input[type="password"], 
+#mail-main input[type="search"], #mail-main input[type="tel"], #mail-main input[type="text"], #mail-main input[type="url"], 
+#mail-main input[type="date"], #mail-main textarea, #mail-main .gh-select, #mail-main select {
+    display: block;
+    padding: 8px 10px;
+    width: 100%;
+    border: 1px solid #E0DFD7;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #242628;
+    transition: border-color 0.15s linear;
+}
+input {
+    line-height: normal;
+}
+#mail-main button, #mail-main input, #mail-main optgroup, #mail-main select, #mail-main textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+#mail-main *, #mail-main *:before, #mail-main *:after {
+    box-sizing: border-box;
+}
+#mail-main .input-icon[class*='icon-'] {
+    position: relative;
+    display: block;
+}
+#mail-main *, #mail-main *:before, #mail-main *:after {
+    box-sizing: border-box;
+}
+#mail-main .login-form {
+    color: #a5acae;
+    display: table-cell;
+    vertical-align: middle;
+}
+#mail-main .input-icon[class*='icon-']:before {
+    position: absolute;
+    top: 50%;
+    left: 1.1rem;
+    font-size: 1.3rem;
+    -webkit-transform: translateY(-52%);
+    -ms-transform: translateY(-52%);
+    transform: translateY(-52%);
+    z-index: 100;
+}
+#mail-main .icon-mail:before {
+    content: '☰';
+}
+#mail-main .icon-lock:before {
+    content: '☰';
+}
+#mail-main .login-form .email-wrap, #mail-main .login-form .password-wrap {
+    position: relative;
+    margin: 0 0 5px 0;
+    float: left;
+    margin-right: 3px;
+}
+#mail-main [class*=icon-]:before, #mail-main .gh-select:after {
+    font-family: "GhostIcons";
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: -7%;
+    text-transform: none;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#mail-main ::selection {
+    background: #b3d5f3;
+}
+/*--*/
+#mail-main .login-form button {
+    width: 85px;
+    height: 48px;
+    margin-left: 10px;
+}
+#mail-main .btn-blue {
+    color: #fff;
+    background-color: #5BA4E5;
+    border-color: #4598e2;
+    transition: background 0.2s ease,border-color 0.2s ease;
+}
+#mail-main .btn, #mail-main .modal-footer .reject-button-class {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 9px 14px;
+    font-size: 1.1rem;
+    line-height: 1.428571429;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
 
 /* Create a bouncing scroll-down arrow on homepage with cover image */
 .scroll-down {
